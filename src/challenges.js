@@ -20,10 +20,12 @@ return (resultado);
 
 }
 
-
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(nomes) {
+
+let array = [];
+array = nomes[nomes.length -1] + ", " + nomes[0];
+return array
 }
 
 // Desafio 5
