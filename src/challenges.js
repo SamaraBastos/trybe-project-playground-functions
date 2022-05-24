@@ -41,13 +41,13 @@ footballPoints(3, 1);
 
 // Desafio 6
 function highestCount(maiorNumero) {
-  let big = maiorNumero[0];
+  let maior = maiorNumero[0];
   let contador = 0;
   for (let index = 0; index < maiorNumero.length; index += 1) {
-    if (maiorNumero[index] > big) {
-      big = maiorNumero[index];
+    if (maiorNumero[index] > maior) {
+      maior = maiorNumero[index];
       contador = 1;
-    } else if (maiorNumero[index] === big) {
+    } else if (maiorNumero[index] === maior) {
       contador += 1;
     }
 
@@ -56,9 +56,21 @@ function highestCount(maiorNumero) {
 }
 
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(mouse,cat1,cat2) {
+  let distancia = Math.abs(mouse - cat1);
+  let distancia2 = Math.abs(mouse - cat2);
+
+  if(distancia > distancia2){
+    return "cat2"
+  } else if(distancia2 > distancia){
+    return "cat1"
+  } else {
+    return "os gatos trombam e o rato foge"
+  }
 }
+
+
+
 
 // Desafio 8
 function fizzBuzz() {
