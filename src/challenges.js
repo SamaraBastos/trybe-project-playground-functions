@@ -98,8 +98,20 @@ return(novoTexto1)
 decode('hello');
 
 // Desafio 10
-function techList() {
-  // seu código aqui
+function techList(tecnologyNames, names) {
+let listaDeObjetos = [];
+tecnologyNames.sort();
+if(tecnologyNames.length === 0){
+  return 'Vazio!';
+} else{
+  for (let index = 0; index < tecnologyNames.length; index += 1) {
+    listaDeObjetos.push({
+      tech: tecnologyNames[index],
+      name: names,
+    }); 
+} 
+}
+return listaDeObjetos
 }
 
 module.exports = {
