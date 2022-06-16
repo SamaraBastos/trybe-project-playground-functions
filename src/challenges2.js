@@ -11,10 +11,19 @@ function generatePhoneNumber() {
   }
 
 
-  // Desafio 13
-  function hydrate() {
-    // seu código aqui
+// Desafio 13
+function hydrate(string) {
+  let num = string.replace(/\D/gim, '');
+  let resultado = 0;
+
+  for (let n of num) {
+    resultado += Number(n);
   }
+  if (resultado === 1) {
+    return `${resultado} copo de água`
+  }
+  return `${resultado} copos de água`;
+}
 
   module.exports = {
     generatePhoneNumber,
