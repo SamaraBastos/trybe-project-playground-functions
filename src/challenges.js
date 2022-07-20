@@ -77,6 +77,7 @@ function fizzBuzz(array) {
   return result;
 }
 */
+
 function fizzBuzzOther(array) {
   if (array % 3 === 0 && array % 5 === 0) {
     return ('fizzBuzz');
@@ -94,16 +95,17 @@ function fizzBuzz(array2) {
   }
   return result;
 }
+
 // Desafio 9
 /*
 function encode(frase) {
-let novoTexto = frase.replace(/a/gi, 1).replace(/e/gi, 2).replace(/i/gi, 3).replace(/o/gi, 4).replace(/u/gi, 5);
+  let novoTexto = frase.replace(/a/gi, 1).replace(/e/gi, 2).replace(/i/gi, 3).replace(/o/gi, 4).replace(/u/gi, 5);
   return (novoTexto)
 }
 encode('hello');
 
 function decode(frase1) {
-let novoTexto1 = frase1.replace(/1/gi, 'a').replace(/2/gi, 'e').replace(/3/gi, 'i').replace(/4/gi, 'o').replace(/5/gi, 'u');
+  let novoTexto1 = frase1.replace(/1/gi, 'a').replace(/2/gi, 'e').replace(/3/gi, 'i').replace(/4/gi, 'o').replace(/5/gi, 'u');
   return (novoTexto1)
 }
 decode('hello');
