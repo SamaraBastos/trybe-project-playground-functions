@@ -1,4 +1,4 @@
-# Projeto Playground Functions!
+## Projeto Playground Functions!
 
 **1 - A função recebe dois parâmetros se forem verdadeiros retorna true ou false se um ou ambos forem falsos.**
 
