@@ -1,6 +1,6 @@
 # Projeto Playground Functions!
 
-## 1 : A função recebe dois parâmetros se forem verdadeiros retorna true ou false se um ou ambos forem falsos.
+** 1 : A função recebe dois parâmetros se forem verdadeiros retorna true ou false se um ou ambos forem falsos.**
 
 ## 2 - Uma função calcula a área de um triângulo.
 
